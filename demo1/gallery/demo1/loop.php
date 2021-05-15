@@ -12,4 +12,3 @@ $data = flexi_image_data('thumbnail', get_the_ID(), $popup);
     </div>
   </div>
 </div>
-</div>

@@ -1,3 +1,2 @@
-<div class="fl-columns">
-  <div class="fl-column fl-is-narrow fl-is-full">
-    <div id="flexi_main_loop">
+<div id="flexi_gallery">
+  <div class="fl-columns fl-is-multiline" id="flexi_main_loop">

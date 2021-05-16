@@ -19,17 +19,17 @@
     <div class="fl-column fl-is-half">
       <div style='text-align: right;'>
         <?php do_action('flexi_location_4', '4', $post, 'basic'); ?>
-		 
-    <a href="<?php echo get_post_meta($post->ID, 'flexi_field_1', '')[0]; ?>" class="button">
-	<?php echo flexi_get_option('flexi_field_1_label', 'flexi_custom_fields', ''); ?></a>
-	
-    <a href="<?php echo get_post_meta($post->ID, 'flexi_field_2', '')[0]; ?>" class="button">
-	<?php echo flexi_get_option('flexi_field_2_label', 'flexi_custom_fields', ''); ?></a>
+
+        <a href="<?php echo get_post_meta($post->ID, 'flexi_field_1', '')[0]; ?>" class="fl-button">
+          <?php echo flexi_get_option('flexi_field_1_label', 'flexi_custom_fields', ''); ?></a>
+
+        <a href="<?php echo get_post_meta($post->ID, 'flexi_field_2', '')[0]; ?>" class="fl-button">
+          <?php echo flexi_get_option('flexi_field_2_label', 'flexi_custom_fields', ''); ?></a>
       </div>
     </div>
     <div class="fl-column bd-notification fl-is-full">
       <div>
-	  
+
         <?php do_action('flexi_location_5', '5', $post, 'basic'); ?>
       </div>
     </div>
